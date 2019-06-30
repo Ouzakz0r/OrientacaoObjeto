@@ -5,14 +5,21 @@ class Conta:
         self.__saldo = saldo
         self.__limite = limite
 
+    @staticmethod
+    def codigo_banco():
+        return "001"
+
     def extrato(self):
-        print("Conta do {}, saldo de {}".format(self.__titular, self.__saldo))
+        print("Títular da conta: {}, saldo de {}".format(self.__titular, self.__saldo))
 
     def deposita(self, valor):
         self.__saldo += valor
 
     def saca(self, valor):
-        self.__saldo -= valor
+        if self.__pode_sacar(valor):
+            self.__saldo -= valor
+        else:
+            print("Não foi possível realizar o saque, valor acima do saldo")
 
     def transfere(self, valor, destino):
         self.saca(valor)
@@ -33,3 +40,7 @@ class Conta:
     @limite.setter
     def limite(self, limite):
         self.__limite = limite
+
+    def __pode_sacar(self, valor_a_sacar):
+        valor_possivel_sacar = self.__saldo + self.__limite
+        return valor_a_sacar <= valor_possivel_sacar
