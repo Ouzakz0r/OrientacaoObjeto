@@ -19,14 +19,23 @@ class Programa:
     def dar_like(self):
         self._likes += 1
 
+    def __str__(self):
+        return "Nome: {} / Likes:{}".format(self.nome, self.likes)
+
 
 class Filme(Programa):
     def __init__(self, nome, ano, duracao):
         super().__init__(nome, ano)
         self.duracao = duracao
 
+    def __str__(self):
+        return "Nome: {} / Duração: {}min / Likes: {}".format(self.nome, self.duracao, self.likes)
+
 
 class Serie(Programa):
     def __init__(self, nome, ano, temporada):
         super().__init__(nome, ano)
         self.temporada = temporada
+
+    def __str__(self):
+        return "Nome: {} / Temporadas: {} / Likes: {}".format(self.nome, self.temporada, self.likes)

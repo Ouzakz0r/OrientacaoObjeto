@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="397cd579-804a-430d-ab73-d580d0419c2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cine.py" beforeDir="false" afterPath="$PROJECT_DIR$/cine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programa.py" beforeDir="false" afterPath="$PROJECT_DIR$/programa.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cine.py">
+        <entry file="file://$PROJECT_DIR$/programa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="374">
+              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -48,6 +48,7 @@
         <option value="$PROJECT_DIR$/venv/circulo.py" />
         <option value="$PROJECT_DIR$/IntelliJ.Portuguese.Brazil.Dictionary-master/cine.py" />
         <option value="$PROJECT_DIR$/cine.py" />
+        <option value="$PROJECT_DIR$/programa.py" />
       </list>
     </option>
   </component>
@@ -89,10 +90,10 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gabriel\PycharmProjects\OrientacaoObjeto" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gabriel\PycharmProjects\OrientacaoObjeto" />
     </key>
   </component>
@@ -216,10 +217,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cine.py">
+    <entry file="file://$PROJECT_DIR$/cine.py" />
+    <entry file="file://$PROJECT_DIR$/programa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="374">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
